@@ -2,8 +2,8 @@
 Header file to define the basic system calls
 */
 
-#ifndef INCITATUS_H
-#define INCITATUS_H
+#ifndef BLACKBALL_H
+#define BLACKBALL_H
 
 //System call identifiers
 #define SYSCALL_PUTS        0

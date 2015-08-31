@@ -2,8 +2,8 @@
 Std arguments for ANSI C which helps capture variable length arguments in function calls
 */
 
-ifndef _STDARG_H_
-define _STDARG_H_
+ifndef STDARG_H
+define STDARG_H
 
 typedef char* va_list;
 
