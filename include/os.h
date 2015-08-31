@@ -6,29 +6,29 @@ Header file to define the basic system calls
 #define BLACKBALL_H
 
 //System call identifiers
-#define SYSCALL_PUTS        0
-#define SYSCALL_PUTC        1
-#define SYSCALL_EXIT        2
-#define SYSCALL_SPAWN       3
-#define SYSCALL_FCHDIR      4
-#define SYSCALL_FPARENT     5
-#define SYSCALL_GETCWD      6
-#define SYSCALL_READDIR     7
-#define SYSCALL_FGETCWD     8
-#define SYSCALL_GETCH       10
+#define SYSCALL_PUTS        1
+#define SYSCALL_PUTC        2
+#define SYSCALL_EXIT        3
+#define SYSCALL_POWEROFF    4
+#define SYSCALL_FCHDIR      5
+#define SYSCALL_FPARENT     6
+#define SYSCALL_GETCWD      7
+#define SYSCALL_READDIR     8
+#define SYSCALL_FGETCWD     9
+#define SYSCALL_RESTART     10
 #define SYSCALL_CLS         11
-#define SYSCALL_RESTART     12
+#define SYSCALL_GETCH       12
 #define SYSCALL_OPEN        13
 #define SYSCALL_CLOSE       14
 #define SYSCALL_READ        15
 #define SYSCALL_WRITE       16
-#define SYSCALL_MKDIR       17
+#define SYSCALL_WAITPID     17
 #define SYSCALL_SBRK        18
 #define SYSCALL_FINDDIR     19
 #define SYSCALL_CHDIR       20
 #define SYSCALL_SETCOLOR    21
-#define SYSCALL_POWEROFF    22
-#define SYSCALL_WAITPID     23
+#define SYSCALL_SPAWN       22
+#define SYSCALL_MKDIR	    23
 
 #define FILE int
 
