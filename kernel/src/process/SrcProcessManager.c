@@ -2,15 +2,15 @@
 
 
 #include <Process/IncProcessManager.h>
-#include <Process/Scheduler.h>
-#include <Drivers/Console.h>
+#include <Process/IncScheduler.h>
+#include <Drivers/console.h>
 //#include <Memory/VirtualMemory.h> - to DO
 //#include <Memory/HeapMemory.h> - To do
 //#include <Memory/PhysicalMemory.h> - To do
 //#include <Memory.h> - To do
-#include <Lib/String.h>
+#include <Lib/string.h>
 //#include <X86/GDT.h> - to do
-#include <Process/Mutex.h>
+#include <Process/mutex.h>
 
 
 #define PROCESS_MSG_WAITING 0x100
