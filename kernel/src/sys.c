@@ -1,10 +1,9 @@
 //Provides important system functions
 
-#include <Sys.h>
-#include <Drivers/Console.h>
-#include <Common.h>
+#include <sys.h>
+#include <Drivers/console.h>
+#include <common.h>
 #include <IO.h>
-#include <Drivers/PS2Controller.h>
 
 /*=======================================================
     DEFINE
@@ -14,10 +13,6 @@
 /*=======================================================
     FUNCTION
 =========================================================*/
-PUBLIC void Sys_restart(void)
-{
-    IO_outB(PS2_STATE, SYS_C_RESET);
-}
 
 /* Works in emulators such as qemu and bochs */
 PUBLIC void Sys_powerOff(void)
@@ -29,6 +24,6 @@ PUBLIC void Sys_panic(const char* str)
 {
     Console_setColor(CONSOLE_RED);
     Console_printf("%s%s", "[PANIC] ", str);
-    Sys_disableInterrupts(); /* We don't want CPU to wake up */
+    Sys_disableInterrupts();
     Sys_haltCPU();
 }

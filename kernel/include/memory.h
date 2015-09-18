@@ -1,23 +1,12 @@
-/**
-| Copyright(C) 2012 Ali Ersenal
-| License: WTFPL v2
-| URL: http://sam.zoy.org/wtfpl/COPYING
-|
-|--------------------------------------------------------------------------
-| Memory.h
-|--------------------------------------------------------------------------
-|
-| DESCRIPTION:  Provides functions which modify memory.
-|
-| AUTHOR:       Ali Ersenal, aliersenal@gmail.com
-\------------------------------------------------------------------------*/
-
+/*
+Provides memory modification functions aa
+*/
 
 #ifndef MEMORY_H
 #define MEMORY_H
 
-#include <Common.h>
-#include <Debug.h>
+#include <common.h>
+#include <debug.h>
 
 //Set a certain block of memory with a certain value
 static inline void Memory_set(void* ptrToMem, char valueToSet, u32int length)

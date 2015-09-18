@@ -2,8 +2,8 @@
 Manages various OS-modules
 */
 
-#include <Module.h>
-#include <Debug.h>
+#include <module.h>
+#include <debug.h>
 
 /*=======================================================
     DEFINE

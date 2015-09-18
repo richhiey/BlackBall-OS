@@ -1,7 +1,7 @@
 //scheduler
 
 #include <Process/IncScheduler.h>
-#include <Debug.h>
+#include <debug.h>
 
 
 #include <Process/IncRoundRobin.h>	// Or any other algo (FCFS)

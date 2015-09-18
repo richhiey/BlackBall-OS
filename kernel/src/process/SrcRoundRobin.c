@@ -1,11 +1,11 @@
 //Richhiey check this out
 //Round robin hai
 
-#include <Process/RoundRobin.h>
-#include <Lib/LinkedList.h>
+#include <Process/IncRoundRobin.h>
+#include <Utils/linkedList.h>
 #include <Memory/HeapMemory.h>
-#include <Debug.h>
-#include <Common.h>
+#include <debug.h>
+#include <common.h>
 
 PRIVATE LinkedList* processes;			//Private Data
 PRIVATE Process* currentProcess;
