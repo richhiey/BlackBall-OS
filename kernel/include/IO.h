@@ -5,7 +5,7 @@ Provides functions to read and/or write to IO ports
 #ifndef IO_H
 #define IO_H
 
-#include <Common.h>
+#include <common.h>
 
 /*=======================================================
     DEFINE
