@@ -5,7 +5,7 @@ Linked list data structure implementation
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-#include <Common.h>
+#include <common.h>
 
 /*=======================================================
     DEFINE
@@ -18,9 +18,6 @@ Linked list data structure implementation
 /*=======================================================
     STRUCT
 =========================================================*/
-typedef struct LinkedList LinkedList;
-typedef struct Node Node;
-
 struct Node
 {
     void* data;
@@ -35,14 +32,22 @@ struct LinkedList
     u32int count;
 };
 
+typedef struct LinkedList LinkedList;
+typedef struct Node Node;
+
 /*=======================================================
     FUNCTION
 =========================================================*/
 void        LinkedList_add(LinkedList* self, void* data);
+
 void*       LinkedList_remove(LinkedList* self, void* data);
+
 void*       LinkedList_removeFromFront(LinkedList* self);
+
 void*       LinkedList_getFront(LinkedList* self);
+
 LinkedList* LinkedList_new();
+
 void        LinkedList_destroy(LinkedList* self);
 
 #endif
