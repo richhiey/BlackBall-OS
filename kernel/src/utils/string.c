@@ -1,20 +1,8 @@
-/**
-| Copyright(C) 2012 Ali Ersenal
-| License: WTFPL v2
-| URL: http://sam.zoy.org/wtfpl/COPYING
-|
-|--------------------------------------------------------------------------
-| String.c
-|--------------------------------------------------------------------------
-|
-| DESCRIPTION:   String related functions.
-|
-| AUTHOR:        Ali Ersenal, aliersenal@gmail.com
-\------------------------------------------------------------------------*/
+/*
+Provides string functions
+*/
 
-
-#include <Lib/String.h>
-#include <Lib/Math.h>
+#include <Utils/string.h>
 
 PUBLIC bool String_startsWith(const char* self, const char* prefix) {
 

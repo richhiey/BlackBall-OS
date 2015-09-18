@@ -2,7 +2,7 @@
 Linked list data structure implementation
 */
 
-#include <Lib/LinkedList.h>
+#include <Utils/linkedlist.h>
 //#include <Memory/HeapMemory.h>   --> TODO
 #include <debug.h>
 
