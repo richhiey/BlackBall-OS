@@ -1,21 +1,15 @@
-//scheduler
+//Implements a scheduler by using any scheduling algorithm, in our case RoundRobin
 
 #include <Process/IncScheduler.h>
 #include <debug.h>
-
-
 #include <Process/IncRoundRobin.h>	// Or any other algo (FCFS)
 
-
 PRIVATE bool isPreemptive;
-
 
 PUBLIC void (*Scheduler_addProcess) (Process* process);
 PUBLIC void (*Scheduler_removeProcess) (Process* process);
 PUBLIC Process* (*Scheduler_getNextProcess) (void);
 PUBLIC Process* (*Scheduler_getCurrentProcess) (void);
-
-
 
 PUBLIC void Scheduler_init(void) {
 
