@@ -5,9 +5,9 @@ VGA text mode driver
 #ifndef VGA_H
 #define VGA_H
 
-#include <Common.h>
+#include <common.h>
 #include <IO.h>
-#include <Module.h>
+#include <module.h>
 
 /*=======================================================
     DEFINE
