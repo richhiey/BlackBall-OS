@@ -4,7 +4,7 @@
 #ifndef MUTEX_H
 #define MUTEX_H
 
-#include <Sys.h>
+#include <sys.h>
 
 static inline void Mutex_lock() {
 
